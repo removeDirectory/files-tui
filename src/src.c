@@ -1,6 +1,13 @@
-#include <stdio.h>
 #include "../include/src.h"
+#include <ncurses.h>
 
 void output() {
-  printf("foobar");
+  initscr();
+  clear();
+  refresh();
+  addstr("peenor");
+  refresh();
+
+  getch();
+  endwin();
 }
