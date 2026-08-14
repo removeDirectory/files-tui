@@ -1,7 +1,10 @@
 #include "include/src.h"
 
-int main() {
-  output();
+int main()
+{
+  // output();
+  // fileData();
+  test();
 
   return 0;
 }
